@@ -73,7 +73,7 @@ def main():
     if pilihan in menu:
         harga = menu[pilihan]
         print(f"n\anda memilih: {pilihan.title()} - Rp {harga}")
-        else:
+    else:
             print("menu tidak tersedia.")
 
 main()            
