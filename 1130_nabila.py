@@ -69,7 +69,7 @@ def main():
     
     # cari menu
     cari = input("\ingin cari menu? (ketik nama menu yang ingin di pesan: ").lower()
-    if pilihan = input("\masukan nama menu yang indngin di pesan: ").lower()
+    pilihan = input("\masukan nama menu yang indngin di pesan: ").lower()
     if pilihan in menu:
         harga = menu[pilihan]
         print(f"n\anda memilih: {pilihan.title()} - Rp {harga}")
